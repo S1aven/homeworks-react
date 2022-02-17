@@ -1,0 +1,73 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkseagreen;
+  max-width: 350px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.avatar {
+  border-radius: 50%;
+  background-color: white;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  align-self: end;
+  justify-content: center;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.avatar img {
+  height: 60px;
+}
+
+.dialog {
+  position: relative;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 80%;
+  opacity: 0.8;
+}
+
+
+.dialog:after {
+  content: '';
+  position: absolute;
+  left: -10px;
+  bottom: 0;
+  border: 20px solid transparent;
+  border-bottom: 20px solid black;
+  border-radius: 5px;
+}
+
+.message_panel {
+  align-self: center;
+  padding-bottom: 10px;
+}
+
+.name {
+  color: blueviolet;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.message {
+  color: white;
+  overflow-wrap: anywhere;
+}
+
+.time {
+  align-self: end;
+  color: white;
+  margin-left: 10px;
+  opacity: 0.5;
+}
