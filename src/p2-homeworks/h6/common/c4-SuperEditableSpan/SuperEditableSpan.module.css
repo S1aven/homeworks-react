@@ -1,0 +1,15 @@
+.imgSpan {
+  display: inline-flex;
+}
+
+.imgSpan:before {
+  content: '';
+  background-image: url("https://st.depositphotos.com/1030956/5167/v/950/depositphotos_51673347-stock-illustration-edit-pencil-vector-icon.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}

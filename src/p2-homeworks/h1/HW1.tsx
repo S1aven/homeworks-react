@@ -4,7 +4,7 @@ import Message, {messagePropsType} from "./Message";
 const messageData:messagePropsType = {
   avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
   name: 'Sergei',
-  message: 'Yarn нажимал! ',
+  message: 'Yarn нажимал!',
   time: '22:00',
 }
 
