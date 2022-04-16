@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {checkAgeAC, homeWorkReducer, sortDownAC, sortUpAC} from './bll/homeWorkReducer'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import s from './HW8.module.css'
+import '../../App.css'
 
 export type UserType = {
   _id: number
@@ -34,7 +35,7 @@ function HW8() {
     const checkAge = () => setPeople(homeWorkReducer(initialPeople, checkAgeAC(18)))
 
     return (
-        <div className={s.wrapper}>
+        <div className={'wrapper' || s.wrapper}>
             <hr/>
             homeworks 8
 

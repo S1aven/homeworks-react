@@ -1,5 +1,6 @@
 import React from 'react'
 import Message, {messagePropsType} from "./Message";
+import '../../App.css'
 
 const messageData:messagePropsType = {
   avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
@@ -10,7 +11,7 @@ const messageData:messagePropsType = {
 
 function HW1() {
   return (
-    <div>
+    <div className='wrapper'>
       <hr/>
       homeworks 1
 

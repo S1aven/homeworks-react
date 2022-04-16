@@ -1,9 +1,13 @@
 .navbar {
   position: relative;
-  height: 20px;
-  padding: 5px 0;
-  width: 212px;
+  height: 30px;
+  padding: 10px 0;
+  min-width: 230px;
+  width: 100%;
   overflow: hidden;
+  background-color: #282c34;
+  margin-bottom: 5px;
+  border-radius: 5px;
 }
 
 .menu {
@@ -11,11 +15,15 @@
   position: absolute;
   left: -192px;
   transition: 1s;
+  padding: 5px 10px;
+  z-index: 10;
+  /*width: 100%;*/
 }
 
 .menu:hover {
-  left: 0;
+  left: 50%;
   transition: 1s;
+  transform: translateX(-50%);
 }
 
 .menu:after {
@@ -23,6 +31,17 @@
   width: 20px;
   height: 20px;
   background-color: deepskyblue;
+  border-radius: 5px;
+}
+
+.menu:before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  left: -50px;
+  height: 20px;
+  /*background-color: deepskyblue;*/
+  /*border-radius: 5px;*/
 }
 
 .item {
@@ -30,10 +49,10 @@
 }
 
 .item a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 .item a.active {
-  color: blueviolet;
+  color: deepskyblue;
 }
