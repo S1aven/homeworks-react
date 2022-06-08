@@ -1,5 +1,5 @@
 .dark {
-    background: dimgrey;
+    background: #282c34;
 }
 
 .dark-text {
@@ -14,10 +14,18 @@
     color: aqua;
 }
 
-.some {
+.green {
     background: lightgreen;
 }
 
-.some-text {
+.green-text {
     color: darkslateblue;
+}
+
+.blue {
+    background: #1b1ba2;
+}
+
+.blue-text {
+    color: white;
 }
